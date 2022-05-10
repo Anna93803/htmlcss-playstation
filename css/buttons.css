@@ -1,10 +1,10 @@
 .my-btn {
     border-radius: 1.25rem;
     padding: .3125rem .4375rem;
-    margin: 0 .625rem;
     border: none;
 }
 
 .btn_black {
     background-color: #363636;
+    margin: 0 .625rem;
 }

@@ -26,10 +26,6 @@ header {
     width: 5rem;
 }
 
-.color-nav {
-    color: #1f1f1f;
-}
-
 .fa-angle-down {
     color: #a9a9a9;
 }
@@ -38,3 +34,40 @@ header {
     width: 25px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #1f1f1f;
+}
+
+/* Section Jumbo */
+.jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 680px;
+}
+
+.col_jumbo {
+    padding-top: 18.75rem;
+}
+
+.logo-jumbo {
+    width: 250px;
+}
+
+.section {
+    padding: 6.875rem 0;
+}
+
+.card_jumbo {
+    padding-top: 3.125rem;
+}
+
+.card_games {
+    width: 200px;
+    border-radius: 1.5625rem;
+    overflow: hidden;
+}
+
+.card_games img {
+    width: 100%;
+}
