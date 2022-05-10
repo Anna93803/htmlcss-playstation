@@ -1,0 +1,40 @@
+@import url("./buttons.css");
+@import url("/css/hover.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --bg_black: black;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-top {
+    background-color: var(--bg_black);
+}
+
+.header-top-logo {
+    width: 5rem;
+}
+
+.color-nav {
+    color: #1f1f1f;
+}
+
+.fa-angle-down {
+    color: #a9a9a9;
+}
+
+.img-lens {
+    width: 25px;
+}
+
