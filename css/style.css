@@ -106,3 +106,17 @@ h2 {
     padding-top: 9.375rem;
     padding-bottom: 3.125rem;
 }
+
+/* Section Banner Uscite */
+.banner-nuove-uscite {
+    background-color: #1f1f1f;
+}
+
+.card_games_now {
+    max-width: 200px;
+}
+
+.img_card_games {
+    border-radius: 20px;
+    overflow: hidden;
+}
