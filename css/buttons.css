@@ -3,6 +3,7 @@
     padding: .3125rem .4375rem;
     border: none;
     font-weight: bold;
+    transition: 0.3;
 }
 
 .btn_black {
