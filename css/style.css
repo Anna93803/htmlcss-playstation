@@ -117,6 +117,13 @@ h2 {
 }
 
 .img_card_games {
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
+}
+
+/* Section Plastation 4 */
+.fa-registered {
+    font-size: .6875rem;
+    position: relative;
+    bottom: .6875rem;
 }
