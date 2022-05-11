@@ -127,3 +127,17 @@ h2 {
     position: relative;
     bottom: .6875rem;
 }
+
+/* Section Banner Play-Plus */
+.banner-play-plus {
+    background-color: #bebcbb;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+} 

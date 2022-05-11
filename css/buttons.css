@@ -2,6 +2,7 @@
     border-radius: 1.25rem;
     padding: .3125rem .4375rem;
     border: none;
+    font-weight: bold;
 }
 
 .btn_black {
@@ -13,4 +14,10 @@
     background-color: var(--bs-primary);
     color: var(--color-white);
     padding: .375rem .8125rem;
+}
+
+.btn_white {
+    background-color: #d9dadc;
+    color: var(--bs-primary);
+    padding: 7px 12px;
 }
