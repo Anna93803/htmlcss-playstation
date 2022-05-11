@@ -141,3 +141,8 @@ h2 {
     width: auto;
     height: 100%;
 } 
+
+/* Section Banner now */
+.banner-play-now {
+    background-color: #161c3b;
+}
