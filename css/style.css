@@ -7,6 +7,9 @@ body {
 
 :root {
     --bg_black: black;
+    --color-p: #9b9b9b;
+    --bs-primary: #0d6efd;
+    --color-white:white;
 }
 
 /* Header */
@@ -54,7 +57,7 @@ header {
     width: 250px;
 }
 
-.section {
+.section:first-child {
     padding: 6.875rem 0;
 }
 
@@ -70,4 +73,23 @@ header {
 
 .card_games img {
     width: 100%;
+}
+
+/* Section playstation5 */
+.section-play5 h6 {
+    color: #3890d8;
+}
+
+.section p {
+    color: var(--color-p);
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.box-img {
+    max-width: 135px;
 }

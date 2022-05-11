@@ -8,3 +8,9 @@
     background-color: #363636;
     margin: 0 .625rem;
 }
+
+.btn_primary {
+    background-color: var(--bs-primary);
+    color: var(--color-white);
+    padding: .375rem .8125rem;
+}
