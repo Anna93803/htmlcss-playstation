@@ -19,5 +19,5 @@
 .btn_white {
     background-color: #d9dadc;
     color: var(--bs-primary);
-    padding: 7px 12px;
+    padding: .4375rem .75rem;
 }
