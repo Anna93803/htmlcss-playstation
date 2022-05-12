@@ -1,65 +1,30 @@
 @import url("./buttons.css");
 @import url("./hover.css");
 
-/* .pl-34 {
-    padding-left: 34px;
+.dropdown-menu {
+    border: none;
 }
 
-.pl-21 {
-    padding-left: 21px;
+.show.dropdown-toggle::after {
+    transform: rotate(180deg);
+    transition: 0.3s;
 }
-
-.my-dropdown {
-    list-style-type: none;
-}
-
-.my-dropdown ul li {
-    list-style: none;
-}
-
-.d_block_nav ul li .fa-angle-down {
+/* 
+.dropdow-toggle.shom {
     display: block;
 }
 
-.arrow .fa-angle-up {
+.dropdown-menu.show {
     display: none;
-}
-
-.d_flex {
-    display: flex;
-}
-
-.d_flex li {
-    padding-right: 40px;
-}
-
-.arrow {
-    position: relative;
-}
-
-.arrow i {
-    position: absolute;
-    left: 60px;
-    bottom: 12px;
-}
-
-.arrow:focus .fa-angle-up {
-    display: block;
-}
-
-.arrow:focus .fa-angle-down {
-    display: none;
-}
-
-.d_block_nav ul li:focus .fa-angle-up {
-    display: block;
-}
-
-.d_block_nav ul li:focus .fa-chevron-down {
-    display: none;
-}
-
-.d_block_nav ul li:focus ul {
-    display: block;
 } */
+
+.my-menu {
+    /* display: flex;
+    justify-content: center; */
+    width: 100vw;
+}
+
+.dropend, .dropstart, .dropup {
+    position: static;
+}
 
