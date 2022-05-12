@@ -1,0 +1,65 @@
+@import url("./buttons.css");
+@import url("./hover.css");
+
+.pl-34 {
+    padding-left: 34px;
+}
+
+.pl-21 {
+    padding-left: 21px;
+}
+
+.my-dropdown {
+    list-style-type: none;
+}
+
+.my-dropdown ul li {
+    list-style: none;
+}
+
+.d_block_nav ul li .fa-angle-down {
+    display: block;
+}
+
+.arrow .fa-angle-up {
+    display: none;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.d_flex li {
+    padding-right: 40px;
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow i {
+    position: absolute;
+    left: 60px;
+    bottom: 12px;
+}
+
+.arrow:focus .fa-angle-up {
+    display: block;
+}
+
+.arrow:focus .fa-angle-down {
+    display: none;
+}
+
+.d_block_nav ul li:focus .fa-angle-up {
+    display: block;
+}
+
+.d_block_nav ul li:focus .fa-chevron-down {
+    display: none;
+}
+
+.d_block_nav ul li:focus ul {
+    display: block;
+}
+
