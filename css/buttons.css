@@ -1,9 +1,10 @@
 .my-btn {
     border-radius: 1.25rem;
-    padding: .3125rem .4375rem;
     border: none;
+    padding: .4375rem .75rem;
     font-weight: bold;
-    transition: 0.3;
+    border: .125rem solid transparent;
+    transition: 0.4;
 }
 
 .btn_black {
@@ -11,18 +12,17 @@
     margin: 0 .625rem;
 }
 
+.btn_red {
+    background-color: #cd3d0f;
+    color: var(--color-white);
+}
+
 .btn_primary {
     background-color: var(--bs-primary);
     color: var(--color-white);
-    padding: .375rem .8125rem;
 }
 
 .btn_white {
     background-color: #d9dadc;
     color: var(--bs-primary);
-    padding: .4375rem .75rem;
-}
-
-.btn_white_now {
-    padding: .4375rem .75rem;
 }

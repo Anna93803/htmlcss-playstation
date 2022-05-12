@@ -2,4 +2,92 @@
     color: unset;
 }
 
+.my-btn.btn_black:hover {
+    box-shadow: 0 0 0 .125rem var(--bg_black);
+    border-color: var(--color-white);
+}
 
+.btn_primary:hover {
+    box-shadow: 0 0 0 .125rem var(--bs-primary);
+    border-color: var(--color-white);
+}
+
+.btn_red:hover {
+    box-shadow: 0 0 0 .125rem #cd3d0f;
+    border-color: var(--bg_black);
+}
+
+.btn_white:hover {
+    box-shadow: 0 0 0 .125rem #c6c8cb;
+    border-color: rgb(231, 223, 223);
+}
+
+.btn_white_now:hover {
+    box-shadow: 0 0 0 .125rem var(--color-white);
+    border-color: var(--bg_black);
+}
+/* Section Jumbo */
+.card_games {
+    content: "";
+    display: block;
+    border-radius: 1.5625rem;
+    padding: .1875rem;
+    border: .125rem solid transparent;
+    transition: 0.3s;
+}
+
+.card_games:hover {
+    display: block;
+    border: .125rem solid var(--bs-primary);
+    transform: translateY(-10px);
+}
+
+
+/* Section playstation5 */
+.box-img1 {
+    border-bottom: .125rem solid var(--bs-primary);
+}
+
+.box-img::after {
+    content: "";
+    display: block;
+    border-bottom: .125rem solid transparent;
+}
+
+.box-img:hover::after {
+    border-color: var(--bs-primary);
+} 
+
+.overlay {
+    position: relative;
+}
+
+.overlay::after {
+    content: "";
+    display: none;
+    background-color: rgba(250, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay:hover::after {
+    cursor: pointer;
+    display: block;
+}
+
+/* Section Nuove Uscite */
+.img_card_games {
+    transition: 0.4s;
+}
+
+.img_card_games:hover {
+    transform: scale(0.9);
+}
+
+/* Footer */
+footer ul li a:hover {
+    text-decoration: underline;
+}
